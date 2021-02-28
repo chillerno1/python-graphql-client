@@ -7,7 +7,7 @@ import aiohttp
 import requests
 import websockets
 
-logging.basicConfig(level=logging.INFO, format="%(levelname)s:%(message)s")
+log = logging.getLogger(__name__)
 
 
 class GraphqlClient:
